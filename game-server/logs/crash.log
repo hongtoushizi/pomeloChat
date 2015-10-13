@@ -1,0 +1,8 @@
+[2015-10-13 14:07:48.410] [INFO] crash-log - [32m[/Users/yuan/nodejs_subject/mypomelochat/game-server/node_modules/pomelo/lib/master/master.js] [39m[master],[master-server-1],[1444716468410],[disconnect]
+[2015-10-13 14:07:48.889] [INFO] crash-log - [32m[/Users/yuan/nodejs_subject/mypomelochat/game-server/node_modules/pomelo/lib/master/master.js] [39m[chat],[chat-server-1],[1444716468888],[disconnect]
+[2015-10-13 14:07:48.890] [INFO] crash-log - [32m[/Users/yuan/nodejs_subject/mypomelochat/game-server/node_modules/pomelo/lib/master/master.js] [39m[chat],[chat-server-2],[1444716468890],[disconnect]
+[2015-10-13 14:07:48.891] [INFO] crash-log - [32m[/Users/yuan/nodejs_subject/mypomelochat/game-server/node_modules/pomelo/lib/master/master.js] [39m[connector],[connector-server-3],[1444716468891],[disconnect]
+[2015-10-13 14:07:48.892] [INFO] crash-log - [32m[/Users/yuan/nodejs_subject/mypomelochat/game-server/node_modules/pomelo/lib/master/master.js] [39m[chat],[chat-server-3],[1444716468892],[disconnect]
+[2015-10-13 14:07:48.892] [INFO] crash-log - [32m[/Users/yuan/nodejs_subject/mypomelochat/game-server/node_modules/pomelo/lib/master/master.js] [39m[connector],[connector-server-2],[1444716468892],[disconnect]
+[2015-10-13 14:07:48.893] [INFO] crash-log - [32m[/Users/yuan/nodejs_subject/mypomelochat/game-server/node_modules/pomelo/lib/master/master.js] [39m[gate],[gate-server-1],[1444716468893],[disconnect]
+[2015-10-13 14:07:48.894] [INFO] crash-log - [32m[/Users/yuan/nodejs_subject/mypomelochat/game-server/node_modules/pomelo/lib/master/master.js] [39m[connector],[connector-server-1],[1444716468894],[disconnect]

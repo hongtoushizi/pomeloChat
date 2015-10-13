@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <script src="js/lib/jquery-1.8.0.min.js">
+         		
+        </script>
+        <script src="js/lib/socket.io.js">
+                		
+        </script>
+        <script src="js/lib/pomeloclient.js">
+                		
+        </script>
+        <script src="js/client.js">
+                		
+        </script>
+        <script src="js/pop.js">
+                		
+        </script>
+    </head>
+    
+    <body>
+        <div id="app">
+            <div id="loginView" style="display: none;">
+                <div id="loginTitle">
+                </div>
+                <table>
+                    <tr>
+                        <td>
+                            <input id="loginUser" type="text" placeholder="enter your name" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input name="channels" type="text" id="channelList" placeholder="enter your channel"
+                            />
+                        </td>
+                        <tr>
+                            <td>
+                                <input id="login" type='button' value="join" />
+                            </td>
+                        </tr>
+                </table>
+                <div id="loginError">
+                </div>
+            </div>
+
+            <div style="width: 100%;display: none;" id ="chat">
+                <div class="chat_left" >
+                    <p>一班</p>
+                    <ul name="class_users">
+                        <li>小原</li>
+                        <li>小李</li>
+                        <li>小王</li>
+                        <li>小杜</li>
+                        <li>小常</li>
+                    </ul>
+                </div>
+                <div class="chat_right">
+                    <div id="chatHistory">
+                    </div>
+                    <div id="toolbar">
+                        <ul id="status">
+                            <li>
+                                users:
+                                <select name="users" id="usersList">
+                                    <option value="*">
+                                        all
+                                    </option>
+                                </select>
+                            </li>
+                            <li>
+                                name:
+                                <span id="name">
+                                </span>
+                            </li>
+                            <li>
+                                room:
+                                <span id="room">
+                                </span>
+                            </li>
+                        </ul>
+                        <input tabindex="1" type="text" id="entry" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="pop">
+            <div id="popHead">
+                <a id="popClose" title="close">Close</a>
+                <h2>
+                    Tip
+                </h2>
+            </div>
+            <div id="popContent">
+                <dl>
+                    <dd id="popIntro">
+                    </dd>
+                </dl>
+                <p id="popMore">
+                    No Tip Again
+                </p>
+            </div>
+        </div>
+    </body>
+
+</html>
