@@ -4,6 +4,8 @@
 	"private": false,
 	"dependencies": {
 		"pomelo": "1.2.0",
-		"crc": "3.3.0"
+		"crc": "3.3.0",
+		"hiredis":"*",
+		"redis":"^2.2.3"
 	}
 }
